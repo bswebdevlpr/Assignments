@@ -63,5 +63,57 @@
     : number
   <br/>
   
+  > ### finish()
+  Finishes the process. 
+  Initializes temporarily assigned variables and returns the result of initilization.
+  - ##### Syntax
+    ```function finish()```
+  - ##### Returns
+    : [boolean, boolean]
+  <br/>
   
+  
+## Test
+```
+// /test_code.js
+/*
+Stored card data
+- Card number: 123412341234
+- PIN number: 1234
+- Account list: [0, 0] // index: account number, value: balance
+*/
+
+main({cardNum: '123412341234'})
+
+/*
+=======TEST verifyCard()=========
+true
+
+========TEST verifyPIN()==========
+// inputPIN=1234
+true
+
+========TEST showAccount()==========
+[ 0, 0 ]
+
+========TEST selectAccount()==========
+// userChoice=1
+1
+
+=========After Deposit==========
+100
+
+=========After Withdraw=========
+50
+=========TEST finish=============
+[ true, true ]
+
+
+
+main({cardNum: '787912315748'})
+=======TEST verifyCard=========
+false
+
+*/
+```
 If you want to test the code, run "test_code.js".
