@@ -28,7 +28,7 @@ class Card {
 
     // SECTION - ACCOUNT
     showAccount(){
-        return this.#account;
+        return this.#account.length;
     }
 
     selectAccount(accountNum){
