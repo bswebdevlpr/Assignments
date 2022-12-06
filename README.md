@@ -64,3 +64,4 @@
   <br/>
   
   
+If you want to test the code, run "test_code.js".
