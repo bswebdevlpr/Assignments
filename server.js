@@ -113,3 +113,9 @@ export function withdraw(howMuch){
         return false;
     }
 }
+
+export function finish(){
+    user = null;
+    card = null;
+    return [user == null, card == null];
+}
