@@ -24,7 +24,7 @@
   <br/>
     
   > ### showAccount()
-  Show the number of accounts stored in selected card. Each account is classified with its index.
+  Shows the number of accounts stored in selected card. Each account is classified with its index.
   - ##### Syntax
     ```function showAccount()```
   - ##### Returns
@@ -35,6 +35,30 @@
   Selects an account the user want to access.
   - ##### Syntax
     ```function selectAccount(userChoice: number)```
+  - ##### Returns
+    : number
+  <br/>
+  
+  > ### checkBalance()
+  Checks how much the balance is left.
+  - ##### Syntax
+    ```function checkBalance()```
+  - ##### Returns
+    : number
+  <br/>
+  
+  > ### deposit()
+  Deposits as much as the user wants. Returns the left balance.
+  - ##### Syntax
+    ```function deposit(howMuch: number)```
+  - ##### Returns
+    : number
+  <br/>
+  
+  > ### withdraw()
+  Withdraws as much as the user wants. Returns the left balance.
+  - ##### Syntax
+    ```function withdraw(howMuch: number)```
   - ##### Returns
     : number
   <br/>
